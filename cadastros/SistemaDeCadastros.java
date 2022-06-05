@@ -1,6 +1,6 @@
 package cadastros;
 
-import exceptions.LimiteDeCadastrosException;
+import exceptions.CadastroNaoPermitido;
 
 public class SistemaDeCadastros {
 	
@@ -12,7 +12,7 @@ public class SistemaDeCadastros {
 		contadorDeCadastros = 0;
 	}
 	
-	public boolean CriarCadastro(int numero) throws LimiteDeCadastrosException {
+	public boolean CriarCadastro(int numero) throws CadastroNaoPermitido {
 		for(Cadastro novoCadastro : cadastros) {
 			if(novoCadastro != null && novoCadastro.getNumero()==numero) {
 				return false;
