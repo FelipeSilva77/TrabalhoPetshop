@@ -1,4 +1,4 @@
-package cadastros;
+package sistemaDeCadastros;
 
 public class Cadastro {
 
