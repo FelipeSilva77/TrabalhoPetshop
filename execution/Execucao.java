@@ -1,11 +1,11 @@
-package execucao;
+package execution;
 
-import menus.MenuAnimal;
+import execution.MenuGeral;
 
 public class Execucao {
 
 	public static void main(String[] args) throws Exception {
-		MenuAnimal menuAnimal = new MenuAnimal();
+		MenuGeral menuAnimal = new MenuGeral();
 		menuAnimal.MenuAnimal();
 	}
 }

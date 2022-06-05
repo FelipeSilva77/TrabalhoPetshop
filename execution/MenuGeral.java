@@ -1,15 +1,15 @@
-package menus;
+package execution;
 
 import java.util.Scanner;
 
-public class MenuAnimal  {
+public class MenuGeral  {
 	
 	static Scanner s = new Scanner(System.in);
 	
 	private MenuCachorro menucachorro;
 	private MenuGato menugato;
 	
-	public MenuAnimal() {
+	public MenuGeral() {
 		this.menucachorro = new MenuCachorro();
 		this.menugato = new MenuGato();
 	}
@@ -38,7 +38,7 @@ public class MenuAnimal  {
             break;
             
             default:
-        System.out.println("Opção inválida. Digite um dos números do menu.");
+        System.out.println("Opï¿½ï¿½o invï¿½lida. Digite um dos nï¿½meros do menu.");
             break;
 		}
 		
